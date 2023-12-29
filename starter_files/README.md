@@ -3,16 +3,25 @@
 
 # Your Project Title Here
 
-*TODO:* Write an overview to your project.
+This project is to deploy a machine learning model as a service in Azure Machine Learning Studio. Then try to consume it, mornitor it with Application Insight logging, document with Swagger. Finally create, publish and consume the machine learning Pipeline.
 
 ## Architectural Diagram
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
+![Architechture](./architechture.drawio.png "Architechture")
 
 ## Key Steps
-*TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
+1. Create AutoMl model
+    a. Register dataset
+    b. Create compute cluster
+    c. Create automl experiment
+    d. Run the experiment
+2. Choose the best model to deploy
+3. Run code for logging the endpoint
+4. //TODO Swagger
+5.
+6.
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 
 ## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+Create a website to use the endpoints with friendly interaction with users.
