@@ -30,20 +30,20 @@ This project is to deploy a machine learning model as a service in Azure Machine
 ### Publish an ML Pipeline
 #### Create and publish a pipeline
 1. The pipeline section of Azure ML studio, showing that the pipeline has been created
-    ![pipeline](./images/pipeline-created-and-completed.png) //TODO
+    ![pipeline](./images/pipeline_created.png)
 2. The Bankmarketing dataset with the AutoML module
-     ![pipeline](./images/pipeline-endpoint.png)
+    ![pipeline](./images/pipeline-endpoint.png)
 
 3. The “Published Pipeline overview”, showing a REST endpoint and a status of ACTIVE
-// TODO
+    ![pipeline](./images/published-pipeline.png)
 
 #### Configure a pipeline with the Python SDK
 ![pipeline](./images/used-run-details.png)
 #### Use a REST endpoint to interact with a Pipeline
 1. ML studio showing the pipeline endpoint as Active
-//TODO
-2. ML studio showing the scheduled run
-//TODO
+![pipeline](./images/endpoint-with-status.png)
+2. ML studio showing the scheduled run *However, I cant find schedule status.*
+![pipeline](./images/pipeline_created.png)
 ## Screen Recording
 [Screencast](https://www.youtube.com/watch?v=8lUfjOYHcHM)
 
