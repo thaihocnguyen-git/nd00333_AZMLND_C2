@@ -3,7 +3,7 @@
 
 # Your Project Title Here
 
-This project is to deploy a machine learning model as a service in Azure Machine Learning Studio. Then try to consume it, mornitor it with Application Insight logging, document with Swagger. Finally create, publish and consume the machine learning Pipeline.
+This project is to deploy a machine learning model as a service in Azure Machine Learning Studio. Then try to consume it, mornitor it with Application Insight logging, document with Swagger. Finally create, publish and consume the machine learning Pipeline. The model is trained with azure AutoML pipeline and deploy as a service. We can consume the service for web application or other uses with RESTful API.
 
 ## Architectural Diagram
 ![Architechture](./images/architechture.drawio.png "Architechture")
